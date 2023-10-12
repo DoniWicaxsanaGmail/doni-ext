@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "version": "0.0.1",
+  "name": "Chrome Ext",
+  "description": "Template Chrome Ext",
+  "icons": {
+    "16": "tools.png",
+    "48": "tools.png",
+    "128": "tools.png"
+  },
+  "action": {
+    "default_title": "Chrome ext",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "options_page": "options.html"
+}
